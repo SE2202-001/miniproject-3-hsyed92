@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; 
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#filter-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#filter-form label {
+    margin-right: 5px;
+}
+
+#filter-form select,
+#filter-form button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#filter-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#filter-form button:hover {
+    background-color: #0056b3;
+}
+
+#job-list-section {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+    transition: background-color 0.3s ease;
+}
+
+.job-item:hover {
+    background-color: #f1f1f1;
+}
+
+.job-item span {
+    flex: 1;
+    font-size: 14px;
+}
+
+.job-item button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-item button:hover {
+    background-color: #0056b3;
+}
+
+#job-details-section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#job-details h3 {
+    margin-top: 0;
+}
+
+#back-to-list {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-to-list:hover {
+    background-color: #0056b3;
+}
+
